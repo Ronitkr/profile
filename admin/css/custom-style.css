@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #343a40;
+}
+.top-menu{
+	background-color: #343a40;
+	width: 100%;
+}
+.top-menu .logo{
+	padding: 10px;
+}
+.top-menu .search{
+	padding: 5px;
+	margin-left: 20px;
+}
+.top-menu .search input{
+	border: none; 
+	box-shadow: none;
+	background-color: #343a40;
+	color: #a6aaaf;
+}
+
+.top-menu .admin-setting {
+	padding: 10px;
+	margin-left: auto;
+}
+.top-menu .admin-setting .count{
+	position: absolute;
+    left: 15px;
+    width: 15px;
+    height: 15px;
+    line-height: 10px;
+    border-radius: 100%;
+    background: #246ec3;
+    top: 4px;
+    font-size: .5625rem;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 1px;
+
+}
+.top-menu .admin-setting i{
+	color: #a6aaaf;
+	font-size: 25px;
+}
+.chip {
+  height: 28px; 
+  /*line-height: 52px;*/
+  border-radius: 26px;
+  background-color: #c0c0c0;
+  padding: 0 10px 3px 0;
+}
+.chip img {
+  height: 25px;
+  width: 25px;
+  border-radius: 26px;
+}
+.chip .nav-item .nav-link{
+	padding: 1px;
+	padding-left: 2px;
+}
+.dropdown-menu a{
+	background-color: #1a1e27;
+	color: #fff;
+}
+.dropdown-menu a:hover{
+	background-color: #1a1e27;
+	color: #cec6c6;
+}
+.upload-form{
+	background-color: #424548;
+	padding-bottom: 20px; 
+}
+
+.upload .file-icon i{
+	font-size: 100px;
+	margin-left: 30%;
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
+/*#custom-button {
+  padding: 5px;
+  background-color: #e01818;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+}
+
+#custom-button:hover {
+  background-color: #b52f2f;
+}*/
+
+#custom-text {
+  margin-left: 10px;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+
